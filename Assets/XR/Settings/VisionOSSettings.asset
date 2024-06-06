@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: VisionOSSettings
   m_EditorClassIdentifier: 
   m_AppMode: 1
-  m_HandsTrackingUsageDescription: 
-  m_WorldSensingUsageDescription: 
+  m_HandsTrackingUsageDescription: use MR
+  m_WorldSensingUsageDescription: use MR
   m_RuntimeSettings: {fileID: 11400000, guid: c050805fcaab34f29b25935f747e6108, type: 2}
   m_UpperLimbVisibility: 0
   m_FoveatedRendering: 1
