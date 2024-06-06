@@ -140,7 +140,10 @@ PlayerSettings:
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
   bundleVersion: 0.1.0
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: 3033780200565918294, guid: 56192cd87837b4298a1c13a7b34ac01e, type: 2}
+  - {fileID: 11400000, guid: 054ef1e8132d243efac63d1f0c6c8dea, type: 2}
+  - {fileID: 11400000, guid: c050805fcaab34f29b25935f747e6108, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -163,6 +166,7 @@ PlayerSettings:
   applicationIdentifier:
     Android: com.UnityTechnologies.com.unity.template.urpblank
     Standalone: com.Unity-Technologies.com.unity.template.urp-blank
+    VisionOS: com.samoi.ShawnHuang.VisionOSTemplate2.0
     iPhone: com.Unity-Technologies.com.unity.template.urp-blank
   buildNumber:
     Standalone: 0
@@ -928,6 +932,6 @@ PlayerSettings:
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
-  platformRequiresReadableAssets: 0
+  platformRequiresReadableAssets: 1
   virtualTexturingSupportEnabled: 0
   insecureHttpOption: 0
